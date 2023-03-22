@@ -1,0 +1,125 @@
+body {
+  margin-left: 20%;
+  background: linear-gradient(to right, #f775ee, #5c27fb);
+  width: 80%;
+  height: auto;
+}
+
+.main-container {
+  border-radius: 15px;
+  background-image: url(wall.jpg);
+  width: 85%;
+  text-align: center;
+}
+.main-container .text-container {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: aliceblue;
+  background: #141dcb93;
+  overflow: hidden;
+}
+.main-container .text-container h1 {
+  font-size: 400%;
+}
+.main-container .text-container p {
+  width: 70%;
+  height: auto;
+  font-size: 20px;
+  margin-left: 20%;
+}
+.main-container .text-container h3 {
+  font-size: 25px;
+}
+.main-container .text-container .btn-container .facebook-button {
+  border: none;
+  font-size: 15px;
+  color: white;
+  background-color: #5329dd;
+  padding: 2px;
+  text-decoration: none;
+  width: 110px;
+  height: 45px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+.main-container .text-container .btn-container .twitter-button {
+  border: none;
+  font-size: 15px;
+  color: white;
+  background-color: #31c8ea;
+  padding: 2px;
+  width: 230px;
+  height: 45px;
+  border-radius: 25px;
+  text-decoration: underline;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.main-container .login-container {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: white;
+}
+.main-container .login-container h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.main-container .login-container h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  color: #2d2b2a;
+}
+.main-container .login-container #userId, .main-container .login-container #userPassword {
+  border: none;
+  width: 85%;
+  height: 40px;
+  font-size: 20px;
+  padding: 1px;
+  border-bottom: 1px solid brown;
+}
+.main-container .login-container .check {
+  display: flex;
+  justify-content: space-between;
+  display: inline-flex;
+  width: 80%;
+  height: 50px;
+  margin-top: 20px;
+}
+.main-container .login-container .check .checkbox11 {
+  width: 22px;
+  height: 22px;
+}
+.main-container .login-container .check #forgot-password {
+  text-decoration: none;
+  color: rgba(25, 22, 22, 0.686);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.submit-btn {
+  background-color: #00ff55;
+  font-size: 20px;
+  width: 90px;
+  height: 40px;
+  border-radius: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 70%;
+  border: none;
+  color: white;
+}
+
+#remember-me {
+  text-align: end;
+  position: absolute;
+  margin-left: 30px;
+  font-size: 22px;
+}
